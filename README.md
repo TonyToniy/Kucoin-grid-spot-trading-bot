@@ -66,8 +66,12 @@ price_shift_threshold = 1000  # Recenter on bigger moves
 ```
 Users should check their KuCoin balance (get_balance()) and adjust these based on available USDT and BTC, ensuring usdt_balance >= min_order_size * buy_price * 1.001 and btc_balance >= min_order_size.
 
+monitor logs file If your IP is unsupported by the KuCoin API due to regional restrictions, the bot uses a Tor proxy to bypass this. Run systemctl restart tor to refresh the Tor connection and get a new IP if the current one is blocked. This restarts the Tor service, cycling to a potentially supported exit node.
+
+
 Disclaimer
 Trading involves risk. Use this bot at your own discretion and test thoroughly before deploying with real funds.
+Need help deploying email: ynotonyno@gmail.com
 
 
 
