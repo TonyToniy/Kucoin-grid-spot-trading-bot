@@ -20,7 +20,7 @@ A Python-based grid trading bot for KuCoin, designed to trade BTC/USDT using the
 ## Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/KucoinGridBot.git
+   git clone https://github.com/TonyToniy/Kucoin-grid-spot-trading-bot.git
    cd KucoinGridBot
 
 2. Install dependencies:
@@ -37,6 +37,15 @@ KUCOIN_PASSWORD=your_password
 ```bash
 python grid_bot.py
 
-PS: Adjust the # Grid Trading Parameters to suit your trading account assets.
-The bot uses tor prroxy for countries that API trading is not supported by Kucoin. 
+5. Adjust the # Grid Trading Parameters to suit your trading account assets.
+PS: The bot uses TOR proxy for countries that API trading is not supported by Kucoin.
+Usage
+Adjust grid parameters (e.g., grid_spacing, grid_levels) in the script.
+
+Monitor logs in grid_bot.log for activity and profit updates.
+
+Disclaimer
+Trading involves risk. Use this bot at your own discretion and test thoroughly before deploying with real funds.
+
+
 
