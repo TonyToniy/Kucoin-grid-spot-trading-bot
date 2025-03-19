@@ -28,7 +28,7 @@ A Python-based grid trading bot for KuCoin, designed to trade BTC/USDT using the
    pip install -r requirements.txt
 
 3. Set up environment variables in a .env file:
-```bash
+
 KUCOIN_API_KEY=your_api_key
 KUCOIN_SECRET=your_secret
 KUCOIN_PASSWORD=your_password
