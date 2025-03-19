@@ -8,7 +8,7 @@ A Python-based grid trading bot for KuCoin, designed to trade BTC/USDT using the
 - Grid trading with configurable spacing and levels
 - Trend detection using 10-period and 50-period SMA
 - Automatic grid recentering based on price shifts or idle timeouts
-- Tor proxy integration for countries that Kcoin.com API trading is not supported
+- Tor proxy integration for countries that Kcoin.com API trading is restricted
 - Detailed logging and profit tracking
 
 ## Requirements
