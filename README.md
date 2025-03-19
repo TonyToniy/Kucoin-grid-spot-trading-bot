@@ -1,11 +1,11 @@
 # Kucoin-grid-spot-trading-bot
-A Python-based grid trading bot for KuCoin, designed to trade BTC/USDT using the CCXT library. The bot supports Tor proxy for restricted regions, optional trend detection with SMA crossover, and dynamic grid adjustments based on price movements and AI-driven price predictions.
+A Python-based grid trading bot for KuCoin, designed to trade BTC/USDT using the CCXT library. The bot supports Tor proxy for restricted regions, optional trend detection with SMA crossover, and dynamic grid adjustments based on price movements.
 
 ## Features
 - Grid trading with configurable spacing and levels
 - Trend detection using 10-period and 50-period SMA
 - AI-Powered Predictions: Price forecasting using weighted moving average and volatility adjustments.
-- Automatic grid recentering based on AI-driven proactive shifts based on predicted price deviations or idle timeouts
+- Automatic grid recentering based on proactive shifts based on predicted price deviations or idle timeouts
 - Tor proxy integration for countries that Kcoin.com API trading is restricted
 - Detailed logging and profit tracking
 
