@@ -66,6 +66,10 @@ price_shift_threshold = 1000  # Recenter on bigger moves
 ```
 Users should check their KuCoin balance (get_balance()) and adjust these based on available USDT and BTC, ensuring usdt_balance >= min_order_size * buy_price * 1.001 and btc_balance >= min_order_size.
 
+Disclaimer
+Trading involves risk. Use this bot at your own discretion and test thoroughly before deploying with real funds.
+
+
 
 
 
