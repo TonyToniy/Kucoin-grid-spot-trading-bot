@@ -31,12 +31,12 @@ A Python-based grid trading bot for KuCoin, designed to trade BTC/USDT using the
 ```bash
 KUCOIN_API_KEY=your_api_key
 KUCOIN_SECRET=your_secret
-KUCOIN_PASSWORD=your_password```
-
+KUCOIN_PASSWORD=your_password
+```
 4. Run the bot:
 ```bash
-python grid_bot.py```
-
+python grid_bot.py
+```
 Adjust the # Grid Trading Parameters to suit your trading account assets.
 PS: The bot uses Tor proxy for countries where API trading is not supported by KuCoin.
 
@@ -50,19 +50,20 @@ Example Adjustments:
 Small Account (e.g., $100 USDT, 0.001 BTC):
 python
 
+```bash
 grid_spacing = 100  # Smaller grid for tighter range
 min_order_size = 0.0005  # Smaller order size
 price_shift_threshold = 100  # Recenter on smaller moves
 idle_timeout = 600  # 10 minutes to reduce frequent recentering
-
+```
 Large Account (e.g., $10,000 USDT, 0.1 BTC):
 python
-
+```bash
 grid_spacing = 1000  # Wider grid for bigger swings
 grid_levels = 3  # Multiple buy/sell levels
 min_order_size = 0.005  # Larger order size
 price_shift_threshold = 1000  # Recenter on bigger moves
-
+```
 Users should check their KuCoin balance (get_balance()) and adjust these based on available USDT and BTC, ensuring usdt_balance >= min_order_size * buy_price * 1.001 and btc_balance >= min_order_size.
 
 
