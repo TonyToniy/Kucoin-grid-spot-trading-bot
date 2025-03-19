@@ -37,6 +37,6 @@ KUCOIN_PASSWORD=your_password
 ```bash
 python grid_bot.py
 
-Adjust the # Grid Trading Parameters to suit your trading account assets.
+PS: Adjust the # Grid Trading Parameters to suit your trading account assets.
 The bot uses tor prroxy for countries that API trading is not supported by Kucoin. 
 
